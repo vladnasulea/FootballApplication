@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-FootballApplication-20160313105135.mdf;Initial Catalog=aspnet-FootballApplication-20160313105135;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\flashman10z\\documents\\visual\ studio\ 2015\\Projects\\FootballApplication\\FootballApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="FootballApplication.DAL.TeamContext-Web.config Connection String" description="FootballApplication.DAL.TeamContext Connection String used in web.config by the application to access the database." defaultValue="FootballApplication.DAL.TeamContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\flashman10z\\documents\\visual\ studio\ 2015\\Projects\\FootballApplication\\FootballApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FootballApplication.DAL.TeamContext']/@connectionString" />
+  </parameter>
+</parameters>
